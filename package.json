@@ -7,7 +7,7 @@
     "url": "https://github.com/plotly/react-chart-editor/issues"
   },
   "scripts": {
-    "build": "webpack  --mode development"
+    "build": "webpack  --mode development",
     "lint": "prettier --write \"src/**/*.js\"",
     "make:arrows": "node scripts/makeArrows.js",
     "make:combined-translation-keys": "npm run make:translation-keys && node scripts/combineTranslationKeys.js",
